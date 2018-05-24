@@ -22,7 +22,7 @@ file while Unix users should use the Gradle Wrapper Shell script.
 
 From the project root directory, build the program using the following commands: 
 
-Windows: `./gradlew.bat build`
+Windows: `.\gradlew.bat build`
 
 Unix: `./gradlew build`
 
