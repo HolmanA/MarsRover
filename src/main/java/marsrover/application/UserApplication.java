@@ -52,7 +52,7 @@ class UserApplication implements Application {
     }
 
     private Grid promptAndGetGridDimensions() {
-        System.out.print("Enter the plateau dimensions [width height]: ");
+        System.out.print("Enter the plateau max x and y coordinates [x y]: ");
         GridParser gridParser = new PlateauParser();
         return gridParser.createGrid(readLine());
     }
