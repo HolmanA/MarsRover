@@ -36,7 +36,7 @@ Windows: `java -jar build\libs\marsrover-1.0.jar [filename]`
 
 Unix: `java -jar build/libs/marsrover-1.0.jar [filename]`
 
-####Input Constraints
+**Input Constraints**
 * Plateau dimensions: Must be non-negative integer values
 * Initial rover X coordinate: Must be integer value between 0 and plateau width
 * Initial rover Y coordinate: Must be integer value between 0 and plateau height
