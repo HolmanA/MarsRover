@@ -1,0 +1,36 @@
+Script started on Thu 24 May 2018 01:56:25 PM PDT
+]0;andrew@andrew-Aspire-V5-552P ~/Documents/Dev/Evo/MarsRover[01;32mandrew@andrew-Aspire-V5-552P[00m [01;34m~/Documents/Dev/Evo/MarsRover $[00m java -jar build/libs/marsrover-1.0.jar
+Type 'quit' at any time to exit the program
+Enter the plateau dimensions [width height]: -1 -1
+Error: Invalid Input
+Enter the plateau dimensions [width height]: -1 5
+Error: Invalid Input
+Enter the plateau dimensions [width height]: 5 -1
+Error: Invalid Input
+Enter the plateau dimensions [width height]: 5 5
+Enter the initial rover coordinates followed by the initial heading [x y h]: 1 2 N
+Enter the command sequence for the rover: LMLMLMLMM
+Final rover position: 1 3 N
+Enter the initial rover coordinates followed by the initial heading [x y h]: 3 3 E
+Enter the command sequence for the rover: MMRMMRMRRM
+Final rover position: 5 1 E
+Enter the initial rover coordinates followed by the initial heading [x y h]: 0 0 s
+Enter the command sequence for the rover: mmmrmmm
+Final rover position: 0 0 W
+Enter the initial rover coordinates followed by the initial heading [x y h]: 5 5 n
+Enter the command sequence for the rover: mmrrmm
+Final rover position: 5 3 S
+Enter the initial rover coordinates followed by the initial heading [x y h]: 5 0 e
+Enter the command sequence for the rover: mj2krrml
+Skipping unknown command 'J'
+Skipping unknown command '2'
+Skipping unknown command 'K'
+Final rover position: 4 0 S
+Enter the initial rover coordinates followed by the initial heading [x y h]: bad input
+Error: Invalid Input
+Enter the initial rover coordinates followed by the initial heading [x y h]: quit
+Exiting...
+]0;andrew@andrew-Aspire-V5-552P ~/Documents/Dev/Evo/MarsRover[01;32mandrew@andrew-Aspire-V5-552P[00m [01;34m~/Documents/Dev/Evo/MarsRover $[00m exit
+exit
+
+Script done on Thu 24 May 2018 01:58:20 PM PDT
